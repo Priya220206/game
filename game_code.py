@@ -28,7 +28,7 @@ def filter_pool(pool, last_guess, fb):
     ]
 
 # --- Streamlit app ---
-st.title("🎯 Mastermind (no itertools)")
+st.title("🎯 Mastermind")
 
 # Initialize game state
 if 'secret' not in st.session_state:
